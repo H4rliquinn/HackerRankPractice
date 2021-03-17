@@ -3,8 +3,6 @@ class Rectangle {
         this.w = w;
         this.h = h;
     }
-
-
 }
 /*
 *  Write code that adds an 'area' method to the Rectangle class' prototype
