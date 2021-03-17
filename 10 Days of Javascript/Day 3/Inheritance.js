@@ -4,7 +4,9 @@ class Rectangle {
         this.h = h;
     }
 
-
+    area(){
+        return this.w*this.h;
+    }
 }
 
 /*
