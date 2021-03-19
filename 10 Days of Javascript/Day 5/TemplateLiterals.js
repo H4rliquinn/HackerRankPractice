@@ -11,6 +11,9 @@
 //Note, this doesn't test knowledge of template literals at all.
 
 function sides(literals, ...expressions) {
-    console.log(literals,expressions)
-    return [10,14]
+    let first=(expressions[1]+Math.sqrt(Math.pow(expressions[1],2)-16*expressions[0]))/4;
+    let second=(expressions[1]-Math.sqrt(Math.pow(expressions[1],2)-16*expressions[0]))/4;
+    return [first,second].sort();
 }
+
+console.log(sides("S",140,48));
