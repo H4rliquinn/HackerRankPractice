@@ -5,7 +5,7 @@ function regexVar() {
      * followed by one or more letters.
      */
 
-    let re= new RegExp(/^(Mr|Mrs|Dr|Er)(\.)\s+[a-zA-Z]+/); 
+    let re= new RegExp(/^(Mr|Mrs|Dr|Er)(\.)\s?[a-zA-Z]+$/); 
     
     /*
      * Do not remove the return statement
@@ -16,7 +16,7 @@ console.log(regexVar());
 
 // let s='Mr. E';
 // console.log(s.match(regexVar()));
-let s='Mr.X';
+let s='Er.Dr.';
 console.log(s.match(regexVar()));
 
 // s='Mrs. Y';
