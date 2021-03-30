@@ -3,7 +3,9 @@ function rotate(){
 
     let btn=document.getElementById('btn1').innerText;
     for (let x in circuit){
-        document.getElementById(`btn${circuit[x]}`).innerText="X";
+        let tempBtn=document.getElementById(`btn${circuit[x]}`).innerText;
+        document.getElementById(`btn${circuit[x]}`).innerText=btn;
+        btn=tempBtn;
     }
 
 }
