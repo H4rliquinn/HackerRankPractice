@@ -28,7 +28,7 @@ body{
     color:white;
 }
 
-#btnSum,#btnSub,#btnMul{
+#btnSum,#btnSub,#btnMul,#btnDiv{
     background-color: black;
     color:red;
 }
