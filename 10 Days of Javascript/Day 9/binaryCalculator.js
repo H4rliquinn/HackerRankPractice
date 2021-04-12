@@ -24,7 +24,9 @@ document.getElementById('btnSum').onclick = action;
 document.getElementById('btnSub').onclick = action;
 document.getElementById('btnMul').onclick = action;
 document.getElementById('btnDiv').onclick = action;
+
 function action(e){
     var btn = e.target || e.srcElement;
-    alert(document.getElementById(btn.id).innerHTML);
+    alert("BING");
+    // alert(document.getElementById(btn.id).innerHTML);
 }
